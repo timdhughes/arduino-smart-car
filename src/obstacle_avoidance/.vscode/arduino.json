@@ -1,0 +1,6 @@
+{
+    "sketch": "obstacle_avoidance.ino",
+    "port": "COM3",
+    "board": "arduino:avr:diecimila",
+    "configuration": "cpu=atmega328"
+}

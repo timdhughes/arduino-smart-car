@@ -1,0 +1,6 @@
+{
+    "sketch": "motor_driver.ino",
+    "port": "COM3",
+    "board": "arduino:avr:diecimila",
+    "configuration": "cpu=atmega328"
+}

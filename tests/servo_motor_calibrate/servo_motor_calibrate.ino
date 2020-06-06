@@ -6,7 +6,7 @@ Servo myservo;
 void setup() {
   // SG90 datasheet states that the minimum pulse width is 1000 us and maxmimum is 2000 us
   // After some experimentation, applying a scale factor of 3/4 gave the best results.
-  myservo.attach(6, 750, 1500);  
+  myservo.attach(9);  
   myservo.write(90);      
 }
 

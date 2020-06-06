@@ -1,0 +1,6 @@
+{
+    "sketch": "ultrasonic_sensor.ino",
+    "port": "COM3",
+    "board": "arduino:avr:diecimila",
+    "configuration": "cpu=atmega328"
+}

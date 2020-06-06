@@ -3,19 +3,20 @@
         {
             "name": "Win32",
             "defines": [
-                "ARDUINO=10800"
+                "ARDUINO=10800",
+                "USBCON"
             ],
             "includePath": [
                 "${workspaceRoot}",
-                "${arduinoRoot}/hardware/arduino/avr/**",
-                "${arduinoRoot}/tools/**",
-                "${arduinoRoot}/hardware/tools/**",
-                "${arduinoRoot}/libraries/**",
+                "${arduinoRoot}\\hardware\\arduino\\avr\\**",
+                "${arduinoRoot}\\tools\\**",
+                "${arduinoRoot}\\hardware\\tools\\**",
+                "${arduinoRoot}\\libraries\\**",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
                 "C:\\Program Files (x86)\\Arduino\\tools\\**"
             ],
             "forcedInclude": [
-                "${arduinoRoot}/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "${arduinoRoot}\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
             ],
             "intelliSenseMode": "clang-x64",
